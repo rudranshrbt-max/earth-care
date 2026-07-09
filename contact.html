@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Earth&amp;Care</title>
+<link rel="canonical" href="https://REPLACE-WITH-YOUR-DOMAIN.com/contact.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact — Earth&Care">
+<meta property="og:description" content="Get in touch with Earth&Care.">
+<meta property="og:url" content="https://REPLACE-WITH-YOUR-DOMAIN.com/contact.html">
+<meta property="og:image" content="https://REPLACE-WITH-YOUR-DOMAIN.com/images/hero-product-01.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=EB+Garamond:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="earthcare.css">
+</head>
+<body>
+
+<div id="loader"><div class="loader-mark">EARTH&amp;CARE</div></div>
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+
+<nav id="nav" class="scrolled">
+  <a href="index.html" class="logo">EARTH<span>&amp;</span>CARE</a>
+  <ul class="nav-links">
+    <li><a href="shop.html">Shop</a></li>
+    <li><a href="index.html#ingredient">Ingredients</a></li>
+    <li><a href="about.html">Our Story</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="help.html">Help</a></li>
+  </ul>
+  <div class="nav-icons">
+    <a href="#" data-cursor>Search</a>
+    <a href="#" data-cursor>Bag (0)</a>
+  </div>
+</nav>
+
+<header class="page-header">
+  <span class="eyebrow">We'd Love To Hear From You</span>
+  <h1>Get in Touch</h1>
+</header>
+
+<div class="contact-layout">
+  <form class="contact-form reveal in" onsubmit="return submitForm(event)">
+    <div class="form-row">
+      <label>Full Name</label>
+      <input type="text" required placeholder="Your name">
+    </div>
+    <div class="form-row">
+      <label>Email</label>
+      <input type="email" required placeholder="you@email.com">
+    </div>
+    <div class="form-row">
+      <label>Subject</label>
+      <select>
+        <option>General Inquiry</option>
+        <option>Order Support</option>
+        <option>Wholesale &amp; Stockist Inquiry</option>
+        <option>Press &amp; Partnerships</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label>Message</label>
+      <textarea required placeholder="How can we help?"></textarea>
+    </div>
+    <button type="submit" class="btn btn-gold" data-cursor style="border:none;cursor:pointer;">Send Message</button>
+    <p id="formNote" style="margin-top:18px;color:var(--text-sub);font-family:'DM Sans',sans-serif;font-size:0.8rem;"></p>
+  </form>
+
+  <div class="reveal in">
+    <div class="contact-info-block">
+      <h5>Email</h5>
+      <a href="mailto:hello@earthandcare.example">hello@earthandcare.example</a>
+    </div>
+    <div class="contact-info-block">
+      <h5>WhatsApp / Phone</h5>
+      <p>Add your business number here</p>
+    </div>
+    <div class="contact-info-block">
+      <h5>Studio</h5>
+      <p>Rajasthan, India<br>Shipping pan-India · International shipping coming soon</p>
+    </div>
+    <div class="contact-info-block">
+      <h5>Response Time</h5>
+      <p>We reply within 24–48 hours on business days.</p>
+    </div>
+    <div class="contact-info-block">
+      <h5>Follow</h5>
+      <p><a href="#">Instagram</a> &nbsp;·&nbsp; <a href="#">Pinterest</a></p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-brand">EARTH<span>&amp;</span>CARE</div>
+  <div class="footer-grid">
+    <div class="footer-col">
+      <h5>Studio</h5>
+      <p style="color:var(--text-sub);max-width:280px;line-height:1.7;font-family:'DM Sans',sans-serif;font-size:0.85rem;">Luxury natural wellness, formulated around a single mineral truth — bamboo salt, purified.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Shop</h5>
+      <a href="product-pure-bamboo-salt.html">Pure Bamboo Salt</a>
+      <a href="product-bamboo-salt-soap.html">Bamboo Salt Soap</a>
+      <a href="shop.html">Shop All</a>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <a href="about.html">About</a>
+      <a href="index.html#ingredient">Ingredients</a>
+      <a href="#">Journal</a>
+    </div>
+    <div class="footer-col">
+      <h5>Support</h5>
+      <a href="contact.html">Contact</a>
+      <a href="help.html">Help Center</a>
+      <a href="help.html">FAQ</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Earth&amp;Care. All rights reserved.</span>
+    <span>Draft build — product photography is placeholder, pending final shoot.</span>
+  </div>
+</footer>
+
+<script>
+window.addEventListener('load',()=>{setTimeout(()=>document.getElementById('loader').classList.add('done'),700);});
+const dot=document.querySelector('.cursor-dot'), ring=document.querySelector('.cursor-ring');
+let mx=0,my=0,rx=0,ry=0;
+window.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;dot.style.left=mx+'px';dot.style.top=my+'px';});
+(function loop(){rx+=(mx-rx)*0.14;ry+=(my-ry)*0.14;ring.style.left=rx+'px';ring.style.top=ry+'px';requestAnimationFrame(loop);})();
+document.querySelectorAll('a,button,[data-cursor]').forEach(el=>{
+  el.addEventListener('mouseenter',()=>ring.classList.add('hover'));
+  el.addEventListener('mouseleave',()=>ring.classList.remove('hover'));
+});
+function submitForm(e){
+  e.preventDefault();
+  document.getElementById('formNote').textContent = 'This form needs a backend (Formspree, a simple API route, or email service) to actually send — UI only for now.';
+  return false;
+}
+</script>
+</body>
+</html>

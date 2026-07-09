@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pure Bamboo Salt — Earth&amp;Care</title>
+<link rel="canonical" href="https://REPLACE-WITH-YOUR-DOMAIN.com/product-pure-bamboo-salt.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Pure Bamboo Salt — Earth&Care">
+<meta property="og:description" content="Pure bamboo salt, roasted and mineral-rich.">
+<meta property="og:url" content="https://REPLACE-WITH-YOUR-DOMAIN.com/product-pure-bamboo-salt.html">
+<meta property="og:image" content="https://REPLACE-WITH-YOUR-DOMAIN.com/images/hero-product-01.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=EB+Garamond:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="earthcare.css">
+</head>
+<body>
+
+<div id="loader"><div class="loader-mark">EARTH&amp;CARE</div></div>
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+
+<nav id="nav" class="scrolled">
+  <a href="index.html" class="logo">EARTH<span>&amp;</span>CARE</a>
+  <ul class="nav-links">
+    <li><a href="shop.html">Shop</a></li>
+    <li><a href="index.html#ingredient">Ingredients</a></li>
+    <li><a href="about.html">Our Story</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="help.html">Help</a></li>
+  </ul>
+  <div class="nav-icons">
+    <a href="#" data-cursor>Search</a>
+    <a href="#" data-cursor>Bag (0)</a>
+  </div>
+</nav>
+
+<div class="pdp-layout">
+  <div class="pdp-gallery">
+    <div class="pdp-main-img">
+      <img id="mainImg" src="images/hero-product-01.jpg" alt="Pure Bamboo Salt">
+    </div>
+    <div class="pdp-thumbs">
+      <button class="active" onclick="swapImg(this,'images/hero-product-01.jpg')"><img src="images/hero-product-01.jpg" alt=""></button>
+      <button onclick="swapImg(this,'images/crystal-macro-01.jpg')"><img src="images/crystal-macro-01.jpg" alt=""></button>
+      <button onclick="swapImg(this,'images/collage-01-cell2.jpg')"><img src="images/collage-01-cell2.jpg" alt=""></button>
+      <button onclick="swapImg(this,'images/collage-02-cell1.jpg')"><img src="images/collage-02-cell1.jpg" alt=""></button>
+    </div>
+  </div>
+
+  <div class="pdp-info">
+    <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><a href="shop.html">Shop</a><span>/</span>Pure Bamboo Salt</div>
+    <h1>Pure Bamboo Salt</h1>
+    <div class="pdp-rating"><span class="stars">★★★★★</span><span>Nine-fold purified · 200g</span></div>
+    <div class="pdp-price">₹2,499</div>
+    <p class="pdp-desc">Sea salt packed into aged bamboo, sealed with mountain clay, and fired at extreme temperature — repeated nine times until only the purest mineral core remains. Formulated for bath, body, and daily mineral ritual.</p>
+
+    <div class="variant-group">
+      <label>Size</label>
+      <div class="variant-options">
+        <div class="variant-opt" onclick="selVariant(this)">60g Travel</div>
+        <div class="variant-opt active" onclick="selVariant(this)">200g Standard</div>
+        <div class="variant-opt" onclick="selVariant(this)">500g Ritual</div>
+      </div>
+    </div>
+
+    <div class="qty-row">
+      <div class="qty-stepper">
+        <button onclick="stepQty(-1)">−</button>
+        <span id="qtyVal">1</span>
+        <button onclick="stepQty(1)">+</button>
+      </div>
+      <span class="stock-note">● In stock — ships in 2–3 days</span>
+    </div>
+
+    <div class="pdp-ctas">
+      <a href="#" class="btn btn-line" data-cursor onclick="return addToCart(this)">Add to Bag</a>
+      <a href="#" class="btn btn-gold" data-cursor>Buy Now</a>
+    </div>
+    <div class="pdp-secondary-links">
+      <a href="#" data-cursor>♡ Add to Wishlist</a>
+      <a href="#" data-cursor>Share</a>
+    </div>
+
+    <div class="trust-mini">
+      <div><span class="dot"></span>100% Natural Mineral Origin</div>
+      <div><span class="dot"></span>Cruelty-Free &amp; Vegan</div>
+      <div><span class="dot"></span>Free shipping over ₹2,000</div>
+    </div>
+  </div>
+</div>
+
+<section class="pdp-tabs">
+  <div class="tab-nav">
+    <button class="tab-btn active" onclick="showTab(this,'desc')">Description</button>
+    <button class="tab-btn" onclick="showTab(this,'ing')">Ingredients</button>
+    <button class="tab-btn" onclick="showTab(this,'use')">How to Use</button>
+    <button class="tab-btn" onclick="showTab(this,'spec')">Specifications</button>
+    <button class="tab-btn" onclick="showTab(this,'ship')">Shipping &amp; Returns</button>
+  </div>
+
+  <div class="tab-panel active" id="tab-desc">
+    <h4>The Purity Process</h4>
+    <p>Bamboo salt is a centuries-old Korean purification technique: raw sea salt is packed into cut bamboo stalks, sealed with mountain clay, and fired repeatedly at extreme heat. Each firing strips impurities and concentrates the trace minerals naturally present in sea salt, leaving behind a coarse, alkaline mineral crystal.</p>
+    <h4>Why Earth&amp;Care</h4>
+    <p>Our salt undergoes nine purification cycles — the traditional benchmark for the highest grade of bamboo salt. It is left unrefined and additive-free, suitable for bathing rituals, body scrubs, and mineral-rich skin contact.</p>
+  </div>
+
+  <div class="tab-panel" id="tab-ing">
+    <h4>Full Ingredient List</h4>
+    <p>Bamboo-purified sea salt (Sodium Chloride, naturally occurring trace minerals including potassium, magnesium, and calcium).</p>
+    <div class="ingredient-list-note">Placeholder listing — pending lab-verified INCI documentation from the formulator. Do not publish this product page until the ingredient panel is confirmed against your actual formulation and Indian cosmetic labeling requirements.</div>
+  </div>
+
+  <div class="tab-panel" id="tab-use">
+    <h4>Bath Ritual</h4>
+    <p>Dissolve 2–3 tablespoons in warm bathwater. Soak for 15–20 minutes to allow full mineral absorption.</p>
+    <h4>Body Scrub</h4>
+    <p>Mix with a small amount of oil to form a paste. Massage in circular motions on damp skin, then rinse thoroughly.</p>
+  </div>
+
+  <div class="tab-panel" id="tab-spec">
+    <ul>
+      <li>Net Weight: 200g (also available 60g / 500g)</li>
+      <li>Origin: Purified in small batches</li>
+      <li>Shelf Life: 36 months unopened</li>
+      <li>Storage: Cool, dry place away from direct sunlight</li>
+    </ul>
+  </div>
+
+  <div class="tab-panel" id="tab-ship">
+    <p>Free shipping on orders over ₹2,000 within India. Standard delivery in 3–5 business days. 15-day return window on unopened products.</p>
+  </div>
+</section>
+
+<section style="padding:80px 5vw;max-width:800px;margin:0 auto;">
+  <div class="section-head reveal in" style="margin-bottom:30px;">
+    <span class="eyebrow">Frequently Asked</span>
+    <h2 class="title">Questions, <em>answered</em></h2>
+  </div>
+  <div class="faq-item open">
+    <button class="faq-q" onclick="toggleFaq(this)"><span>Is this suitable for sensitive skin?</span><span class="plus">+</span></button>
+    <div class="faq-a" style="max-height:120px;"><p>Bamboo salt is naturally alkaline and mineral-rich. We recommend a patch test before first use, particularly for reactive or highly sensitive skin.</p></div>
+  </div>
+  <div class="faq-item">
+    <button class="faq-q" onclick="toggleFaq(this)"><span>How long does one jar last?</span><span class="plus">+</span></button>
+    <div class="faq-a"><p>With regular bath ritual use (2–3 times weekly), a 200g jar lasts approximately 6–8 weeks.</p></div>
+  </div>
+  <div class="faq-item">
+    <button class="faq-q" onclick="toggleFaq(this)"><span>Can I use this on my face?</span><span class="plus">+</span></button>
+    <div class="faq-a"><p>The salt crystal is formulated for body use. For facial application, we recommend the Bamboo Salt Soap, which is milled fine enough for daily facial cleansing.</p></div>
+  </div>
+</section>
+
+<div class="related-head">
+  <span class="eyebrow">Complete the Ritual</span>
+  <h2 class="title">You may also <em>love</em></h2>
+</div>
+<div class="product-grid" style="padding:0 5vw 120px;">
+  <div class="product-card reveal in">
+    <div class="product-media">
+      <img src="images/spa-scene-01.jpg" alt="Bamboo Salt Soap">
+      <a href="#" class="quick-add" data-cursor>Quick View</a>
+    </div>
+    <h4>Bamboo Salt Soap</h4>
+    <p class="p-desc">Daily mineral cleansing bar · 100g</p>
+    <p class="price">₹1,299</p>
+  </div>
+  <div class="product-card reveal in">
+    <div class="product-media">
+      <img src="images/collage-01-cell6.jpg" alt="Ritual Gift Set">
+      <a href="#" class="quick-add" data-cursor>Quick View</a>
+    </div>
+    <h4>The Ritual Gift Set</h4>
+    <p class="p-desc">Salt + soap + linen pouch</p>
+    <p class="price"><s>₹4,200</s> ₹3,599</p>
+  </div>
+  <div class="product-card reveal in">
+    <div class="product-media">
+      <img src="images/droplet-macro-01.jpg" alt="Mineral Mist">
+      <a href="#" class="quick-add" data-cursor>Quick View</a>
+    </div>
+    <h4>Mineral Mist</h4>
+    <p class="p-desc">Bamboo salt infused facial mist · 100ml</p>
+    <p class="price">₹1,899</p>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-brand">EARTH<span>&amp;</span>CARE</div>
+  <div class="footer-grid">
+    <div class="footer-col">
+      <h5>Studio</h5>
+      <p style="color:var(--text-sub);max-width:280px;line-height:1.7;font-family:'DM Sans',sans-serif;font-size:0.85rem;">Luxury natural wellness, formulated around a single mineral truth — bamboo salt, purified.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Shop</h5>
+      <a href="product-pure-bamboo-salt.html">Pure Bamboo Salt</a>
+      <a href="product-bamboo-salt-soap.html">Bamboo Salt Soap</a>
+      <a href="shop.html">Shop All</a>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <a href="about.html">About</a>
+      <a href="index.html#ingredient">Ingredients</a>
+      <a href="#">Journal</a>
+    </div>
+    <div class="footer-col">
+      <h5>Support</h5>
+      <a href="contact.html">Contact</a>
+      <a href="help.html">Help Center</a>
+      <a href="help.html">FAQ</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Earth&amp;Care. All rights reserved.</span>
+    <span>Draft build — product photography is placeholder, pending final shoot.</span>
+  </div>
+</footer>
+
+<div class="sticky-atc" id="stickyAtc">
+  <div class="s-info">
+    <img src="images/hero-product-01.jpg" alt="">
+    <div><h6>Pure Bamboo Salt</h6><div class="s-price">₹2,499</div></div>
+  </div>
+  <a href="#" class="btn btn-gold" data-cursor onclick="return addToCart(this)">Add to Bag</a>
+</div>
+
+<script>
+window.addEventListener('load',()=>{setTimeout(()=>document.getElementById('loader').classList.add('done'),700);});
+const dot=document.querySelector('.cursor-dot'), ring=document.querySelector('.cursor-ring');
+let mx=0,my=0,rx=0,ry=0;
+window.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;dot.style.left=mx+'px';dot.style.top=my+'px';});
+(function loop(){rx+=(mx-rx)*0.14;ry+=(my-ry)*0.14;ring.style.left=rx+'px';ring.style.top=ry+'px';requestAnimationFrame(loop);})();
+document.querySelectorAll('a,button,[data-cursor]').forEach(el=>{
+  el.addEventListener('mouseenter',()=>ring.classList.add('hover'));
+  el.addEventListener('mouseleave',()=>ring.classList.remove('hover'));
+});
+
+function swapImg(btn,src){
+  document.getElementById('mainImg').src=src;
+  document.querySelectorAll('.pdp-thumbs button').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+}
+function selVariant(el){
+  document.querySelectorAll('.variant-opt').forEach(o=>o.classList.remove('active'));
+  el.classList.add('active');
+}
+let qty=1;
+function stepQty(d){ qty=Math.max(1,qty+d); document.getElementById('qtyVal').textContent=qty; }
+function addToCart(el){
+  const original=el.textContent;
+  el.textContent='Added ✓';
+  setTimeout(()=>el.textContent=original,1400);
+  return false;
+}
+function showTab(btn,id){
+  document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+  document.querySelectorAll('.tab-panel').forEach(p=>p.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('tab-'+id).classList.add('active');
+}
+function toggleFaq(btn){
+  const item=btn.parentElement;
+  const answer=item.querySelector('.faq-a');
+  const isOpen=item.classList.contains('open');
+  document.querySelectorAll('.faq-item').forEach(f=>{f.classList.remove('open'); f.querySelector('.faq-a').style.maxHeight=null;});
+  if(!isOpen){ item.classList.add('open'); answer.style.maxHeight=answer.scrollHeight+'px'; }
+}
+// Sticky ATC visibility
+const ctaRow=document.querySelector('.pdp-ctas');
+const stickyBar=document.getElementById('stickyAtc');
+const io2=new IntersectionObserver((entries)=>{
+  entries.forEach(en=>{ stickyBar.classList.toggle('show', !en.isIntersecting && window.scrollY>400); });
+},{threshold:0});
+io2.observe(ctaRow);
+</script>
+</body>
+</html>
